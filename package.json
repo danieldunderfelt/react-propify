@@ -1,13 +1,13 @@
 {
   "name": "react-propify",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "main": "lib/index.js",
   "author": "danieldunderfelt <daniel@developsuperpowers.com>",
   "license": "MIT",
   "scripts": {
     "start": "parcel examples/sandbox/index.html",
     "test": "jest",
-    "build": "rm-r lib && node_modules/babel-cli/bin/babel.js src --out-dir lib",
+    "build": "rm -r lib && node_modules/babel-cli/bin/babel.js src --out-dir lib",
     "preversion": "npm run build"
   },
   "peerDependencies": {
