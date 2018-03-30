@@ -1,0 +1,1 @@
+export { propify } from './propify'
